@@ -1,0 +1,26 @@
+export const heroSlides = [
+  { id:'main-campus', eyebrow:"A UNIVERSITY FOR WHAT'S NEXT", title:'Curiosity has', highlighted_title:'a place here.', description:'Where bold questions meet a world of possibility. Find your path, your people, your Presidency.', image_url:'/images/campus.jpg', image_alt:'Presidency University main campus with landscaped grounds', primary_cta_text:'Apply to Presidency', primary_cta_link:'/admissions', secondary_cta_text:'Explore Programs', secondary_cta_link:'/academics', display_order:1 },
+  { id:'campus-life', eyebrow:'FIND YOUR PEOPLE', title:'Community is', highlighted_title:'how you grow.', description:'A vibrant campus made for conversation, discovery and belonging.', image_url:'/images/students.jpg', image_alt:'University students walking and talking together on campus', primary_cta_text:'Explore Campus Life', primary_cta_link:'/portal', secondary_cta_text:'View Academics', secondary_cta_link:'/academics', display_order:2 },
+  { id:'labs', eyebrow:'IDEAS BECOME INNOVATION', title:'Test. Tinker.', highlighted_title:'transform.', description:'Explore modern learning and research environments built for hands-on discovery.', image_url:'/images/labs.jpg', image_alt:'Students conducting research in a modern university laboratory', primary_cta_text:'View Research', primary_cta_link:'/faculty', secondary_cta_text:'Explore Schools', secondary_cta_link:'/academics', display_order:3 },
+  { id:'library', eyebrow:'KNOWLEDGE WITHOUT LIMITS', title:'A place to', highlighted_title:'explore further.', description:'Discover books, digital collections and quiet spaces beyond the classroom.', image_url:'/images/library.jpg', image_alt:'Large modern university library with study spaces', primary_cta_text:'Visit Digital Library', primary_cta_link:'/library', secondary_cta_text:'Explore Programs', secondary_cta_link:'/academics', display_order:4 },
+  { id:'activities', eyebrow:'MAKE IT YOURS', title:'Make memories.', highlighted_title:'Make impact.', description:'Clubs, culture and student initiatives that turn a campus into a community.', image_url:'/images/activities.jpg', image_alt:'Students taking part in an energetic campus activity', primary_cta_text:'Student Portal', primary_cta_link:'/portal', secondary_cta_text:'See Campus Life', secondary_cta_link:'#life-at-presidency', display_order:5 },
+  { id:'sports', eyebrow:'LEARN. MOVE. BELONG.', title:'Every strength', highlighted_title:'finds a field.', description:'Play, compete and recharge across vibrant sports and recreation spaces.', image_url:'/images/sports.jpg', image_alt:'University students playing sports on a campus field', primary_cta_text:'Campus Tour', primary_cta_link:'/portal', secondary_cta_text:'View Events', secondary_cta_link:'/notices', display_order:6 },
+  { id:'research', eyebrow:'BUILD WHAT COMES NEXT', title:'Curiosity leads', highlighted_title:'to possibility.', description:'Work alongside researchers, makers and innovators solving real-world challenges.', image_url:'/images/research.jpg', image_alt:'Researchers and students working with technology and engineering equipment', primary_cta_text:'Meet Our Faculty', primary_cta_link:'/faculty', secondary_cta_text:'Explore Academics', secondary_cta_link:'/academics', display_order:7 },
+  { id:'evening', eyebrow:'YOUR NEXT CHAPTER', title:'The future starts', highlighted_title:'right here.', description:'A campus shaped by its people, purpose and the promise of what comes next.', image_url:'/images/evening.jpg', image_alt:'University campus architecture at golden hour', primary_cta_text:'Apply for 2027', primary_cta_link:'/admissions', secondary_cta_text:'Plan a Visit', secondary_cta_link:'/portal', display_order:8 }
+]
+
+export const seedEvents = [
+  { id:'e1', title:'International Conference on AI', description:'International Conference: Responsible & Applied AI', event_date:'2026-12-21', event_type:'Conference', location:'Main Auditorium' },
+  { id:'e2', title:'Annual Sports Meet 2026', description:'Annual sports meet across all campuses', event_date:'2026-12-26', event_type:'Sports', location:'University Sports Complex' },
+  { id:'e3', title:'Guest Lecture: Tech Trends', description:'Industry perspectives on emerging technology', event_date:'2026-12-29', event_type:'Lecture', location:'Innovation Centre' },
+  { id:'e4', title:'Annual Convocation Ceremony', description:'Celebrating the achievements of our graduates', event_date:'2027-01-30', event_type:'Ceremony', location:'Central Lawn' }
+]
+
+export const campusLife = [
+  { title:'Student Life', image_url:'/images/students.jpg', image_alt:'University students together on campus', className:'life-wide' },
+  { title:'Clubs & Culture', image_url:'/images/activities.jpg', image_alt:'Students attending a campus cultural activity', className:'' },
+  { title:'Sports', image_url:'/images/sports.jpg', image_alt:'Students playing university sports', className:'' },
+  { title:'Innovation', image_url:'/images/research.jpg', image_alt:'Students and researchers in a technology lab', className:'life-tall' },
+  { title:'Library', image_url:'/images/library.jpg', image_alt:'Modern university library', className:'' },
+  { title:'Campus Spaces', image_url:'/images/evening.jpg', image_alt:'Campus architecture in the evening', className:'life-wide' }
+]

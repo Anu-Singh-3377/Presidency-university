@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 46" role="img" aria-label="Presidency University emblem">
+  <g fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 38h28M9 34h24M11 30h20M14 26h14"/>
+    <path d="M21 4c-4 5-4 10 0 15 4-5 4-10 0-15Z"/>
+    <path d="M21 19v11M12 29l9-10 9 10M15 21l6-12 6 12"/>
+    <path d="M5 30l16-10 16 10M3 33l18-11 18 11"/>
+    <path d="M8 38v-5M34 38v-5M14 26v-4M28 26v-4"/>
+  </g>
+  <circle cx="21" cy="21" r="2" fill="#FFFFFF"/>
+</svg>
